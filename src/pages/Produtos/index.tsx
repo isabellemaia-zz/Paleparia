@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Home = () =>{
+const Produtos = () =>{
     return (
         <>
-        <h1>Home</h1>
-        <Link to="/store" >Loja</Link>
+        <h1>Store</h1>
+        <Link to="/">Home</Link>
         </>
     )
 }
 
-export default Home
+export default Produtos
